@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  /* background color */
+  --bg-primary-color: #fcf5f5;
+  --bg-secondary-color: #faf2dd;
+  --nav-color: #ffffff;
+  --footer-color: ;
+  --btn-primary-color: #f1c256;
+  --btn-hover: #ebd092;
+
+  /* font color */
+  --head-color: #151111;
+  --head-highlight-color: #f1c256; 
+  --primary-color: #151111;
+  --highlight-color: #fefcfc;
+
+  /* size */
+  --maxw: 1280px;
+  --font-head: 38px;
+  --font-sub-head: 28px;
+  --font-body: 18px;
+  --font-highlight: 16px;
+
+  /* font family */
+  --head-font: "Public Sans", san-serif;
+  --body-font: "Open Sans", san-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--body-font);
+}
+
+.container {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0;
+}
+
