@@ -1,6 +1,9 @@
-.container {
-  width: 1200px;
-  margin: 0 auto;
+.navbar {
+  width: 100%;
+  background-color: var(--nav-color);
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .header-top {
