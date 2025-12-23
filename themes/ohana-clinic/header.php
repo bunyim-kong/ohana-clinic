@@ -44,7 +44,7 @@
         <a href="#">First Visit</a>
         <a href="#">About us</a>
         <a href="#">Medical Information</a>
-        <a href="#">Contact</a>
+        <a href="<?php echo home_url('/contact'); ?>">Contact</a>
         <a href="#">Acess & Clinic Hours</a>
       </nav>
 
