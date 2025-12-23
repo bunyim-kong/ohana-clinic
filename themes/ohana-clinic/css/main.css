@@ -1,20 +1,74 @@
 .hero-section {
-    width: var(--maxw);
+    width: 100%;
+    max-width: var(--maxw);
     height: 100vh;
     overflow: hidden;
 }
 
 .hero-content {
-    margin-top: 180px;
+    width: 100%;
+    margin-top: 190px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+}
+
+.hero-infor {
+    height: auto;
+    overflow: hidden;
+}
+
+.hero-infor h1 {
+    font-size: 48px;
+    margin: 0;
+    margin-top: 26px;
+}
+
+.hero-infor p {
+    width: 75%;
+    font-size: var(--font-body);
+    margin-bottom: 36px;
+}
+
+.hero-infor a {
+    text-decoration: none;
+    padding: 16px 26px;
+    color: var(--highlight-color);
+    background-color: var(--btn-primary-color);
+    border-radius: 10px;
+    transition: all .2s ease;
+}
+
+.hero-infor a:hover {
+    background-color: var(--btn-hover);
 }
 
 .hero-image {
-    background-color: pink;
+  height: 450px;
+  overflow: hidden;
+  border-radius: 16px;
 }
 
-.hero-image img{
-    width: 100%;
-    height: 100%;
-}    
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+
+
+
+
