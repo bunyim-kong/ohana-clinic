@@ -36,8 +36,7 @@
     <div class="container">
 
       <div class="logo">
-        <img src="assets/images/logo.png" width="50">
-        <h1>Site Name</h1>
+        <a href=""><img src="<?php echo get_template_directory_uri() . '/asset/image/logo.png'; ?>" width="160"></a>
       </div>
 
       <nav class="nav">
