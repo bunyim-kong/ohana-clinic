@@ -98,10 +98,11 @@
   border-radius: 14px;
   padding: 32px 24px;
   background-color: var(--nav-color);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-rows: auto 1fr 1fr auto;
+  gap: 0px;
+  justify-items: center;
+  align-content: center;
 }
 
 .strength-card i {
@@ -113,21 +114,24 @@
 
 .strength-card h1 {
   font-size: 28px;
+  margin: 0;
   text-align: center;
 }
 
 .strength-card p {
   width: 80%;
+  margin: 0;
+  margin-top: 12px;
   font-size: 16px;
   height: 40px;
 }
 
 .strength-card a {
   width: 100%;
+  margin-top: 12px;
   text-decoration: none;
   text-align: center;
   border-radius: 40px;
-  margin-top: 16px;
   padding: 16px 0px;
   color: var(--font-body);
   background-color: var(--btn-primary-color);
@@ -142,4 +146,336 @@
 
 .strength-card a:hover {
   background-color: var(--btn-hover);
+}
+
+
+/* about-section */
+.about-section {
+  width: 100%;
+  max-width: var(--maxw);
+}
+
+.about-content {
+  width: 100%;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.image-grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.image-grid img:nth-child(1) {
+  height: 280px;
+  margin: 0;
+}
+
+.image-grid img:nth-child(2) {
+  height: 260px;
+}
+
+.image-grid img:nth-child(3) {
+  height: 290px;
+}
+
+.image-grid img:nth-child(4) {
+  height: 180px;
+  transform: translateY(-20px);
+}
+
+.image-grid img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 18px;
+  transition: transform 0.4s ease;
+}
+
+.image-grid img:hover {
+  transform: translateY(-8px) scale(1.02);
+}
+
+.experience-badge {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #ffffff;
+  padding: 20px 26px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.experience-badge h3 {
+  font-size: 36px;
+  color: var(--btn-primary-color);
+  margin: 0;
+  line-height: 1;
+}
+
+.experience-badge span {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.infor-content {
+  transform: translateY(-60px);
+}
+
+.infor-content h1 {
+  color: #947676;
+  font-size: 28px;
+}
+
+.infor-content h2 {
+  font-family: var(--head-font);
+  font-size: 38px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.infor-content p {
+  margin-bottom: 25px;
+  color: var(--primary-color);
+}
+
+
+.infor-txt {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.infor-txt p {
+  font-size: var(--font-body);
+}
+
+.infor-content a {
+  text-decoration: none;
+  padding: 16px 26px;
+  color: var(--highlight-color);
+  background-color: var(--btn-primary-color);
+  border-radius: 10px;
+  transition: all .2s ease;
+}
+
+.infor-content a:hover {
+  background-color: var(--btn-hover);
+}
+
+
+/* medical-section */
+.speciality-section {
+  background-color: #f9f9f9;
+}
+
+.speciality-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.speciality-header .sub-title {
+  color: #947676;
+  font-size: 28px;
+  margin-bottom: 10px;
+  font-family: var(--head-font);
+}
+
+.speciality-header .heading {
+  font-size: 38px;
+  margin: 0;
+  color: var(--font-body);
+}
+
+
+.speciality-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  background-color: var(--nav-color);
+  border-radius: 20px;
+  text-align: center;
+  padding: 0px 20px 0px 20px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  position: relative;
+  min-height: 350px;
+  overflow: visible;
+  transition: all .3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* Card Content */
+.card-content h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  margin-bottom: 10px;
+  color: var(--btn-primary-color);
+}
+
+.card-content p {
+  font-size: 16px;
+  line-height: 1.8;
+  color:var(--font-body);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-img {
+  position: absolute;
+  bottom: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: var(--btn-primary-color);
+  color: #fff;
+  font-size: 36px;
+  text-decoration: none;
+  border: 4px solid #fff;
+}
+
+.card-img a {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/* Tablet: max-width 768px */
+@media (max-width: 768px) {
+
+  /* Hero Section */
+  .hero-content {
+    margin-top: 120px; /* reduce top margin */
+    grid-template-columns: 1fr; /* single column for hero content */
+    gap: 20px;
+  }
+
+  .hero-infor h1 {
+    font-size: 36px;
+  }
+
+  .hero-infor p {
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .hero-infor a {
+    padding: 12px 20px;
+  }
+
+  .hero-image {
+    height: 300px;
+  }
+
+  /* Strength Section */
+  .strength-content {
+    grid-template-columns: 1fr; /* stack cards vertically */
+    gap: 20px;
+  }
+
+  .strength-card {
+    padding: 24px 16px;
+  }
+
+  .strength-card i {
+    padding: 24px;
+    font-size: 22px;
+  }
+
+  .strength-card h1 {
+    font-size: 24px;
+  }
+
+  .strength-card p {
+    font-size: 14px;
+    height: auto;
+  }
+
+  .strength-card a {
+    padding: 12px 0;
+  }
+
+  /* About Section */
+  .about-content {
+    grid-template-columns: 1fr; /* stack image + text */
+    gap: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .image-grid {
+    grid-template-columns: 1fr 1fr; /* 2 images per row */
+    gap: 15px;
+  }
+
+  .image-grid img {
+    height: 180px !important;
+  }
+
+  .image-grid img:nth-child(4) {
+    transform: translateY(0); /* reset offset for small screens */
+  }
+
+  .experience-badge {
+    bottom: 15px;
+    padding: 14px 20px;
+  }
+
+  /* Speciality Section */
+  .speciality-cards {
+    grid-template-columns: 1fr; /* stack speciality cards */
+    gap: 20px;
+  }
+
+  .card {
+    min-height: 300px;
+    padding-bottom: 80px; /* space for circle icon */
+  }
+
+  .card-img {
+    width: 80px;
+    height: 80px;
+    font-size: 28px;
+    bottom: -40px;
+  }
+
+  .card-content h4 {
+    font-size: 22px;
+  }
+
+  .card-content p {
+    font-size: 14px;
+    -webkit-line-clamp: 3;
+  }
 }

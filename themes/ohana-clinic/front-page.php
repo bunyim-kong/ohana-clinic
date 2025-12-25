@@ -58,7 +58,7 @@
         <div class="strength-card">
             <i class="material-symbols-outlined">add_notes</i>
 
-            <h1>Proven Pregnancy Results Hahah</h1>
+            <h1>Proven Pregnancy Results</h1>
 
             <p>Pregnancy rate from 2022 to 2023: 63.2% (frozen blastocyst transfer)</p>
 
@@ -77,31 +77,97 @@
 
     </div>    
 </section>
-<!-- <section class="container strength-section">
-    <h1>Our strengths</h1>
 
-    <div class="stength-content">
-        <div class="strength-items-card">
-            <i class="material-symbols-outlined">browse_gallery</i>
+<section class="container about-section">
+  <div class="about-content">
 
-            <h1>Easy Access While You Work</h1>
+    <div class="image-grid">
+        <img src="<?php echo get_template_directory_uri(); ?>/asset/image/doctors/member_takehara_01.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/asset/image/doctors/member_minegishi.webp" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/asset/image/doctors/member_okumura.webp" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/asset/image/doctors/member_yoshimura.webp" alt="">
 
-            <p>Close to the station, open 8:00 AM–8:00 PM (Mon, Wed, Fri)</p>
-
-            <a href="">See more <i class="fas fa-chevron-right"></i></a>
-        </div>
-
-        <div class="strength-items-card">
-            <i class="material-symbols-outlined">browse_gallery</i>
-
-            <h1>Easy Access While You Work</h1>
-
-            <p>Close to the station, open 8:00 AM–8:00 PM (Mon, Wed, Fri)</p>
-
-            <a href="">See more <i class="fas fa-chevron-right"></i></a>
+        <div class="experience-badge">
+            <h3>20+</h3>
+            <span>Years<br>Experience</span>
         </div>
     </div>
-</section> -->
+
+    <div class="infor-content">
+        <h1>─── Message</h1>
+      <h2>Warm medical treatment and Provide </h2>
+
+
+      <div class="infor-txt">
+        <p>The hospital's philosophy of "infertility treatment with better friends" includes the desire to make patients, doctors, and staff communicate, and to perform fertility treatment that tends to be dark, and by making it better, we want you to do the fertility treatment that tends to be dark. In addition, we will incorporate new tests, treatments, and technologies that are expected to be effective, and all staff will do their best to support as many patients as possible so that as many patients as possible can have children.</p>
+      </div>
+
+      <a href="#" class="btn">Discover More</a>
+    </div>
+
+  </div>
+</section>
+
+<section class="speciality-section">
+  <div class="container">
+
+    <div class="speciality-header">
+      <h1 class="sub-title">─── Treatment</h1>
+      <h3 class="heading">Medical Information</h3>
+    </div>
+
+    <!-- Cards -->
+    <div class="speciality-cards">
+      
+      <!-- Card 1 -->
+      <div class="card">
+        <div class="card-content">
+          <h4>In vitro fertilization</h4>
+          <p>It is a treatment that promotes implantation by removing eggs that have grown up to near ovulation by egg retrieval surgery outside the body, fertilizing it with the sperm of the partner, and converting the fertilized egg that has been successfully fertilized and divided back into the uterus.</p>
+        </div>
+        <div class="card-img">
+            <a href="#"><i class="fas fa-share-alt"></i></a>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card">
+        <div class="card-content">
+          <h4>General Fertility Treatment</h4>
+          <p>Depending on the cause of infertility, it is a treatment that aims to become pregnant with timing methods and artificial insemination.</p>
+        </div>
+        <div class="card-img">
+          <a href="#"><i class="fas fa-share-alt"></i></a>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card">
+        <div class="card-content">
+          <h4>Fertility testing</h4>
+          <p>A fertility test is a test to examine physical condition and fertility and to find disorders of pregnancy.</p>
+        </div>
+        <div class="card-img">
+          <a href="#"><i class="fas fa-share-alt"></i></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-content">
+          <h4>Imaturity</h4>
+          <p>By testing and treating malnutrition, it is possible to reduce the number of out-of-life cases and improve the production rate.
+            <br>
+            ※Only patients in our hospital treatment</p>
+        </div>
+        <div class="card-img">
+          <a href="#"><i class="fas fa-share-alt"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
 
 
