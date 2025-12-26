@@ -27,17 +27,135 @@
   --body-font: "Open Sans", san-serif;
 }
 
-.contact{
-    background-color: bisque;
-    margin: auto;
-    font-size: 25px;
+.container{
+  --maxw: 1280px;
+  margin: 0 auto;
+  padding: 0;
 }
-.contact h2{
-    font-size: 16px;
+.titlle-contact{
+  display: flex;
+}
+.li {
+  display: flex;
+  font-family: 'Serif', 'Times New Roman', serif;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #4a321f; 
+  width: 300px;
+  margin: auto;
+
+}
+
+
+.ta {
+  font-size: 36px;
+  letter-spacing: 5px;
+  margin-bottom: 5px;
+  font-weight: normal;
+  margin: auto;
+}
+
+.bar {
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(to right, #f3d4a0, #e6b08a);
+  margin: 0 auto 30px;
+}
+
+.box {
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto 30px;
+  line-height: 1.6;
+  font-size: 16px;
+}
+.phone {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 15px 60px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.827);
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.phone-number {
+  font-size: 24px;
+  margin-left: 15px;
+}
+
+.form-title {
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto 5px;
+  font-size: 28px;
+  font-weight: normal;
+}
+
+
+
+
+.min {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  max-width: 800px; 
+  margin: 60px auto;
+  padding: 0 20px; 
+}
+
+
+.min h2, .title-line {
+  text-align: left; 
+  margin-left: 0; 
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee; 
+  width: 800px;
+}
+
+
+.label-section {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px; 
+  margin-bottom: 10px;
+}
+
+
+.input-section {
+  width: 100%;
+  padding: 0;
+}
+
+
+.input-section input, 
+.input-section select, 
+.input-section textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+
+@media (min-width: 768px) {
+  .form-row {
+    flex-direction: row; 
     align-items: center;
-    display: flex;
-    justify-content: center;
-}
-.contact p{
-    font-size:12px;
+  }
+  .label-section {
+    width: 80%; 
+    margin-bottom: 0;
+  }
+  .input-section {
+    width: 70%; 
+  }
 }

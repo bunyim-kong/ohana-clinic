@@ -45,7 +45,7 @@
         <a href="#">About us</a>
         <a href="#">Medical Information</a>
         <a href="<?php echo home_url('/contact'); ?>">Contact</a>
-        <a href="#">Acess & Clinic Hours</a>
+        <a href="<?php echo home_url('/Access'); ?>">Acess & Clinic Hours</a>
       </nav>
 
       <div class="header-right">
