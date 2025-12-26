@@ -502,8 +502,11 @@
 
 .reservation-content {
   width: 75%;
+  border-radius: 16px;
   margin: 0 auto;
   margin-bottom: 60px;
+  padding: 36px 68px;
+  background-color: var(--bg-secondary-color);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -514,8 +517,8 @@
   width: 100%;
   height: auto;
   margin: 0;
-  padding: 36px 46px;
-  background-color: var(--nav-color);
+  margin-top: 26px;
+  margin-bottom: 24px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   align-items: center;
@@ -529,6 +532,7 @@
   margin: 0;
   padding: 32px 0px;
   background-color: var(--btn-primary-color);
+  transition: all .3s ease;
 }
 
 .reservation-items a {
@@ -542,7 +546,42 @@
   margin-right: 12px;
 }
 
+.reservation-items:hover {
+  transform: translateY(-8px);
+}
 
+.content-txt {
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+
+.reservation-form {
+  width: 100%;
+  display: inline-block;
+  border-radius: 40px;
+  margin: 0;
+  margin-bottom: 12px;
+  border: 2px solid var(--btn-primary-color);
+  transition: all .3s ease;
+}
+
+.reservation-form a {
+  display: block;
+  text-decoration: none;
+  color: #F6BC92;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 24px 0px;
+  margin-left: 36px;
+}
+
+.reservation-form:hover {
+  background-color: var(--btn-hover);
+}
+
+.reservation-form a:hover {
+  color: var(--highlight-color);
+}
 
 
 
