@@ -7,6 +7,7 @@
   --nav-color: #ffffff;
   --footer-color: ;
   --btn-primary-color: #f1c256;
+  --btn-secondary-color: #F6BC92;
   --btn-hover: #ebd092;
 
   /* font color */
@@ -17,6 +18,7 @@
 
   /* size */
   --maxw: 1280px;
+  --font-title: 42px;
   --font-head: 38px;
   --font-sub-head: 28px;
   --font-body: 18px;
@@ -29,10 +31,12 @@
 
 body {
   margin: 0;
+  background-color: var(--bg-primary-color);
   font-family: var(--body-font);
 }
 
 .container {
+  width: 100%;
   max-width: var(--maxw);
   margin: 0 auto;
   padding: 0;
