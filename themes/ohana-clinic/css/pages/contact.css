@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  /* background color */
+  --bg-primary-color: #fcf5f5;
+  --bg-secondary-color: #faf2dd;
+  --nav-color: #ffffff;
+  --footer-color: ;
+  --btn-primary-color: #f1c256;
+  --btn-hover: #ebd092;
+
+  /* font color */
+  --head-color: #151111;
+  --head-highlight-color: #f1c256; 
+  --primary-color: #151111;
+  --highlight-color: #fefcfc;
+
+  /* size */
+  --maxw: 1280px;
+  --font-head: 38px;
+  --font-sub-head: 28px;
+  --font-body: 18px;
+  --font-highlight: 16px;
+
+  /* font family */
+  --head-font: "Public Sans", san-serif;
+  --body-font: "Open Sans", san-serif;
+}
+
+.contact-section {
+  padding: 80px 20px;
+  font-family: "serif";
+  color: #4a321f;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+
+.header-group {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.h1{
+  font-size: 20px;
+  margin: 0;
+}
+
+
+
+.opu {
+  text-align: left; 
+  max-width: 600px;
+  margin-left: 50px; 
+}
+
+.hau {
+  font-size: 18px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  color: #4a321f;
+}
+
+.phone-button {
+  display: inline-flex; 
+  align-items: center;
+  padding: 15px 50px;
+  border-radius: 50px; 
+  background-color: #fff;
+  text-decoration: none;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05); 
+  border: 1px solid #f8f8f8;
+  transition: 0.3s ease;
+}
+
+.phone-button:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.phone-icon {
+  font-size: 22px;
+  color: #4a321f;
+  transform: rotate(10deg); 
+}
+
+.phone-number {
+  font-size: 26px;
+  font-weight: 500;
+  margin-left: 20px;
+  color: #4a321f;
+  letter-spacing: 1px;
+}
+
+.min {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  max-width: 900px; 
+  margin: 60px auto;
+  padding: 0 20px;
+
+}
+
+.h2{
+  font-family: serif; 
+  font-size: 42px;
+  color: black;
+  margin-bottom: 5px;
+  padding: 20px;
+}
+
+
+
+.form-row {
+  display: flex;
+  align-items: center; 
+  padding: 25px 0;
+  border-bottom: 1px solid white; 
+}
+
+.label-section {
+  width: 300px; 
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.label-section label {
+  font-weight: bold;
+  color: black;
+}
+
+.badge {
+  background-color: #eb5757; 
+  color: white;
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 2px;
+}
+
+.input-section {
+  flex: 1; 
+}
+
+.form-input {
+  width: 100%;
+  max-width: 760px; 
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 4px;
+  outline: none;
+  background-color: #fff;
+}
+
+
+select.form-input {
+  width: 150px;
+}
+  
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.nina {
+    display: flex;
+    align-items: flex-start; 
+    padding: 25px 0;
+}
+
+.tart {
+    width: 200px; 
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tart label {
+    font-weight: bold;
+}
+
+.badge {
+    background-color: #f86c6b;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.oun {
+    flex: 1; 
+}
+
+
+
+.form-input {
+    width: 100%;       
+    max-width: 800px; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    background-color: #f0f1f5; 
+    box-sizing: border-box;   
+    display: block;
+}
+
+
+textarea.form-input {
+    resize: vertical;
+}
+.form-input:focus {
+    border-color: #f7bd96;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.submit-btn {
+    background-color: #f7bd96;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 22px;
+    border-radius: 70px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.submit-btn:hover {
+    background-color: #e5a67d;
+    transform: translateY(-2px);
+}
+
+
+
+@media (max-width: 768px) {
+  .form-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .label-section {
+    margin-bottom: 10px;
+  }
+  .form-input {
+    max-width: 100%;
+  }
+}
+
+
