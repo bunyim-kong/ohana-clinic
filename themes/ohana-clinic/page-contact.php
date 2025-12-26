@@ -3,102 +3,98 @@
 <?php get_header();?>
   
  
-<section class="container">
-  <div class="titlle-contact">
-    <div class="li">
-      <h1 class="ta">Contact Us</h1>
-    <div class="bar"></div>
+<section class="contact-section">
+  <div class="container">
+    <div class="header-group">
+      <h1 >Contact Us</h1>
+    </div>
+
+    <div class="opu">
+      <p class="hau">
+        Inquiries are accepted by phone or the following inquiry form.
+        If you are in a hurry,please call us.
+      </p>
+
+      <a href="hanu" class="phone-button">
+        <span class="phone-icon"><i class="fa-solid fa-phone"></i></span>
+        <span class="phone-number">03-3987-3090</span>
+      </a>
+    </div>
   </div>
-   <p class="box">
-    Inquiries are accepted by phone or the following inquiry form.<br>
-    If you are in a hurry, please call us.
-    </p>
-
-    <div class="phone">
-    <span class="phone-icon"><i class="fa-solid fa-phone"></i></span>
-    <span class="phone-number">03-3987-3090</span>
-   </div>
-   </div>
- </section>
+</section>
 
 
-   <section class="container min">
+  <section class="container min">
   <h2>Contact form</h2>
-  <hr class="title-line">
-
+  
   <form method="post" action="">
-    <!-- Type of inquiry -->
     <div class="form-row">
       <div class="label-section">
         <label>Type of inquiry</label>
         <span class="badge">Mandatory</span>
       </div>
       <div class="input-section">
-        <select name="inquiry" required>
-          <option value="">Select</option>
-          <option value="medical">Lita</option>
-          <option value="reservation">nik ke Ot</option>
-           <option value="medical">Ot nik pg</option>
+        <select name="inquiry" class="form-input" required>
+          <option value="">About medical treatment </option>
+          <option value="">About reservations </option>
+          <option value="">Sales/Advertisement</option>
         </select>
       </div>
     </div>
 
-    <!-- Your name -->
     <div class="form-row">
       <div class="label-section">
         <label>Your name</label>
         <span class="badge">Mandatory</span>
       </div>
       <div class="input-section">
-       <input type="text">
-
+        <input type="text" class="form-input">
       </div>
     </div>
 
-    <!-- Furigana -->
     <div class="form-row">
       <div class="label-section">
         <label>Furigana</label>
         <span class="badge">Mandatory</span>
       </div>
       <div class="input-section">
-     <textarea name="message" rows="2" required></textarea>
-
+        <input type="text" class="form-input">
       </div>
     </div>
 
-    <!-- Email -->
     <div class="form-row">
       <div class="label-section">
         <label>E-mail address</label>
         <span class="badge">Mandatory</span>
       </div>
       <div class="input-section">
-       <textarea name="message" rows="2" required></textarea>
-
+        <input type="email" class="form-input">
       </div>
     </div>
-
-  <!-- --Phone number-- -->
-     <div class="form-row">
+    <div class="form-row">
       <div class="label-section">
         <label>Phone number</label>
         <span class="badge">Mandatory</span>
       </div>
       <div class="input-section">
-      <textarea name="message" rows="2" required></textarea>
-
+        <input type="email" class="form-input">
       </div>
     </div>
-       
-          <!-- Your inquiry -->
-   <div class="form-row">
-  <div class="label-section">
-    <label>Your name</label>
-    <span class="badge">Mandatory</span>
-  </div>
-  <div class="input-section">
-    <input type="text" name="your_name" required> </div>
+
+           <div class="form-row">
+      <div class="label-section">
+        <label>Your inquiry</label>
+        <span class="badge">Mandatory</span>
+      </div>
+     <div class="input-section">
+    <textarea name="user_contact_contact" class="form-input" rows="8"></textarea>
 </div>
+    </div>
+<div class="button-container">
+            <button type="submit" class="submit-btn">Go to confirmation screen</button>
+        </div>
+    
+     
+   
   </form>
 </section>
