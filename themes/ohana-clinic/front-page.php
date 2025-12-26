@@ -246,6 +246,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 
+<!-- hero-section swiper -->
 <script>
     var swiper = new Swiper(".mySwiper", {
         loop: true,
@@ -261,6 +262,7 @@
     });
 </script>
 
+<!-- galary-slider -->
 <script>
   var slider = new Swiper(".mySlider", {
     loop: true,

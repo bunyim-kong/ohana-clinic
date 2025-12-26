@@ -42,8 +42,8 @@
       <nav class="nav">
         <a href="<?php echo home_url('home'); ?>">Home</a>
         <a href="">First Visit</a>
-        <a href="">About us</a>
-        <a href="">Medical Information</a>
+        <a href="<?php echo home_url('about-us'); ?>">About us</a>
+        <a href="<?php echo home_url('contact'); ?>">Medical Information</a>
         <a href="<?php echo home_url('contact'); ?>">Contact</a>
         <a href="">Acess & Clinic Hours</a>
       </nav>
