@@ -30,7 +30,7 @@
   margin-bottom: 36px;
 }
 
-.hero-infor a {
+.btn-primary {
   text-decoration: none;
   padding: 16px 26px;
   color: var(--highlight-color);
@@ -39,8 +39,9 @@
   transition: all .2s ease;
 }
 
-.hero-infor a:hover {
-    background-color: var(--btn-hover);
+
+.btn-primary:hover {
+  background-color: var(--btn-hover);
 }
 
 .hero-image {
@@ -65,6 +66,13 @@
   height: 100%;
   object-fit: cover;
 }
+
+
+
+
+
+
+
 
 
 
@@ -109,12 +117,14 @@
   font-size: 26px;
   border-radius: 50%;
   padding: 32px;
+  color: var(--highlight-color);
   background-color: #F6BC92;
 }
 
 .strength-card h1 {
   font-size: 28px;
   margin: 0;
+  margin-top: 14px;
   text-align: center;
 }
 
@@ -133,7 +143,7 @@
   text-align: center;
   border-radius: 40px;
   padding: 16px 0px;
-  color: var(--font-body);
+  color: var(--highlight-color);
   background-color: var(--btn-primary-color);
   transition: all .2s ease;
 }
@@ -147,6 +157,16 @@
 .strength-card a:hover {
   background-color: var(--btn-hover);
 }
+
+
+
+
+
+
+
+
+
+
 
 
 /* about-section */
@@ -306,11 +326,11 @@
   background-color: var(--nav-color);
   border-radius: 20px;
   text-align: center;
-  padding: 0px 20px 0px 20px;
+  padding: 0px 20px;
   display: grid;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: 1fr auto;
   position: relative;
-  min-height: 350px;
+  min-height: 300px;
   overflow: visible;
   transition: all .3s ease;
 }
@@ -319,7 +339,6 @@
   transform: translateY(-10px);
 }
 
-/* Card Content */
 .card-content h4 {
   display: flex;
   align-items: center;
@@ -335,7 +354,8 @@
   color:var(--font-body);
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 4; 
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -367,6 +387,166 @@
   width: 100%;
   height: 100%;
 }
+
+
+
+
+
+
+
+.galary-section {
+  width: 100%;
+  max-width: var(--maxw);
+  display: flex;flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-title {
+  color: #947676;
+  margin: 0;
+  font-size: 28px;
+}
+
+.galary-header {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.galary-header h2 {
+  font-size: 38px;
+  margin: 0;
+}
+
+.myslider {
+  width: 100%;
+  max-width: var(--maxw);
+  height: 400px;
+  border-radius: 12px;
+  margin-top: 24px;
+  overflow: hidden;
+}
+
+.slider-track {
+  margin-bottom: 26px;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.btn-explore {
+  width: 20%;
+  border-radius: 50px;
+  margin-top: 40px;
+  display: inline-block;
+  border: 2px solid var(--btn-primary-color);
+  text-align: center;
+  transition: all .3s ease;
+}
+
+.btn-explore a {
+  display: block;
+  padding: 20px 0px;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.btn-explore:hover{
+
+  border: 2px solid var(--btn-hover);
+  background-color: var(--btn-hover);
+}
+
+.btn-explore a:hover {
+  color: var(--highlight-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.reservation-section {
+  width: 100%;
+  max-width: var(--maxw);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.reservation-section h1 {
+  font-size: 38px;
+  margin: 0;
+  margin-top: 59px;
+  
+}
+
+.reservation-section p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.reservation-content {
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.reservation-contact {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 36px 46px;
+  background-color: var(--nav-color);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+
+.reservation-items {
+  text-align: center;
+  border-radius: 50px;
+  margin: 0;
+  padding: 32px 0px;
+  background-color: var(--btn-primary-color);
+}
+
+.reservation-items a {
+  text-decoration: none;
+  font-size: 26px;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.reservation-items i {
+  margin-right: 12px;
+}
+
+
+
+
+
+
 
 
 

@@ -7,6 +7,7 @@
 
 <?php get_header(); ?>
 
+<!-- hero-section -->
 <section class="container hero-section">
     <div class="hero-content">
 
@@ -16,7 +17,7 @@
             <p>We will answer your questions thoroughly during your consultation, so
             you can approach your infertility treatment in a relaxed atmosphere.</p>
 
-            <a href="">Discover More</a>
+            <a class="btn-primary" href="">Discover More</a>
         </div>
 
         <div class="hero-image">
@@ -40,6 +41,7 @@
     </div>    
 </section>
 
+<!-- strength-section -->
 <section class="container strength-section">
     <h1>Our strengths</h1>
 
@@ -78,6 +80,7 @@
     </div>    
 </section>
 
+<!-- about-section -->
 <section class="container about-section">
   <div class="about-content">
 
@@ -108,6 +111,7 @@
   </div>
 </section>
 
+<!-- serveice or specialist-section -->
 <section class="speciality-section">
   <div class="container">
 
@@ -116,10 +120,8 @@
       <h3 class="heading">Medical Information</h3>
     </div>
 
-    <!-- Cards -->
     <div class="speciality-cards">
       
-      <!-- Card 1 -->
       <div class="card">
         <div class="card-content">
           <h4>In vitro fertilization</h4>
@@ -130,10 +132,9 @@
         </div>
       </div>
 
-      <!-- Card 2 -->
       <div class="card">
         <div class="card-content">
-          <h4>General Fertility Treatment</h4>
+          <h4>Fertility Treatment</h4>
           <p>Depending on the cause of infertility, it is a treatment that aims to become pregnant with timing methods and artificial insemination.</p>
         </div>
         <div class="card-img">
@@ -141,7 +142,6 @@
         </div>
       </div>
 
-      <!-- Card 3 -->
       <div class="card">
         <div class="card-content">
           <h4>Fertility testing</h4>
@@ -163,11 +163,72 @@
           <a href="#"><i class="fas fa-share-alt"></i></a>
         </div>
       </div>
+
     </div>
+    
+  </div>
+  
+</section>
+
+<!-- galary-section -->
+<section class="container galary-section">
+  <div class="galary-header">
+    <h1 class="sub-title">─── Galary</h1>
+    <h2>Inside Our Clinic</h2>
+  </div>
+
+  <div class="swiper mySlider">
+    <div class="slider-track swiper-wrapper">
+      
+      <div class="slide swiper-slide">
+        <img src="<?php echo get_template_directory_uri(); ?>/asset/image/gallery_01.webp" alt="">
+      </div>
+
+      <div class="slide swiper-slide">
+        <img src="<?php echo get_template_directory_uri(); ?>/asset/image/gallery_02.webp" alt="">
+      </div>
+
+      <div class="slide swiper-slide">
+        <img src="<?php echo get_template_directory_uri(); ?>/asset/image/gallery_03.webp" alt="">
+      </div>
+
+      <div class="slide swiper-slide">
+        <img src="<?php echo get_template_directory_uri(); ?>/asset/image/gallery_04.webp" alt="">
+      </div>
+
+      <div class="slide swiper-slide">
+        <img src="<?php echo get_template_directory_uri(); ?>/asset/image/gallery_05.webp" alt="">
+      </div>
+
+    </div>
+  </div>
+
+  <div class="btn-explore">
+    <a href="">Introduction to the Hospital</a>
   </div>
 </section>
 
+<!-- reservation-section -->
+<section class="container reservation-section">
+  <h1>Reservation</h1>
+  <p>We accept reservations by phone and online.
+    <br>
+    If you are in a hurry, please call us.</p>
 
+  <div class="reservation-content">
+
+    <div class="reservation-contact">
+        <div class="reservation-items" style= "background">
+          <a href=""><i class="fas fa-phone"></i> 03-3987-3090</a>
+        </div>
+
+        <div class="reservation-items">
+          <a href=""><i class="far fa-calendar-alt"></i>Online Reservation</a>
+        </div>
+    </div>
+
+  </div>
+</section>
 
 
 
@@ -192,3 +253,22 @@
         },
     });
 </script>
+
+<script>
+  var slider = new Swiper(".mySlider", {
+    loop: true,
+    speed: 500,
+    autoplay: {
+      delay: 2000,
+      disableOnInteraction: false,
+    },
+    slidesPerView: 2,
+    spaceBetween: 24,
+    centeredSlides: false,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
+
