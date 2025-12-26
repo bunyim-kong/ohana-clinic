@@ -40,7 +40,7 @@
       </div>
 
       <nav class="nav">
-        <a href="">Home</a>
+        <a href="<?php echo home_url('home'); ?>">Home</a>
         <a href="">First Visit</a>
         <a href="">About us</a>
         <a href="">Medical Information</a>
