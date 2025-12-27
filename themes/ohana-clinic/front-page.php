@@ -231,11 +231,14 @@
 
     <!-- inqury form -->
     <div class="reservation-form">
-      <a href="">Inqury <i class="fas fa-chevron-right"></i></a>
+      <a href="<?php echo home_url('contact'); ?>">Inqury <i class="fas fa-chevron-right"></i></a>
     </div>
 
   </div>
 </section>
+
+
+<?php get_footer(); ?>
 
 
 
@@ -268,7 +271,7 @@
     loop: true,
     speed: 500,
     autoplay: {
-      delay: 2000,
+      delay: 3500,
       disableOnInteraction: false,
     },
     slidesPerView: 2,

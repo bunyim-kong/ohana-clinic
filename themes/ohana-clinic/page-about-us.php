@@ -6,3 +6,8 @@
 
 <?php get_header(); ?>
 
+<section class="container about-infor-cols">
+    <div class="about-infor-content">
+        <h1>About us</h1>
+    </div>
+</section>

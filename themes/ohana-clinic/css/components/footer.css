@@ -1,0 +1,211 @@
+.site-footer {
+    background-color: var(--nav-color);
+    padding: 50px 24px 0px;
+    font-family: var(--body-font);
+}
+
+.footer-content {
+    max-width: var(--maxw);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.2fr 1.5fr 1fr;
+    gap: 50px;    
+}
+
+.infor-footer {
+    padding: 12px 28px;
+    background-color: ;
+    background: var(--footer-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.clinic-hours {
+    background: var(--footer-color);
+    border-radius: 24px;
+    padding: 32px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.06);
+}
+
+.footer-logo img {
+    max-width: 220px;
+    margin-bottom: 24px;
+}
+
+.clinic-info {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: var(--font-highlight);
+    color: var(--primary-color);
+}
+
+.clinic-info th {
+    text-align: left;
+    padding: 10px 12px 10px 0;
+    color: var(--head-color);
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.clinic-info td {
+    padding: 10px 0;
+    color: #555;
+    line-height: 1.6;
+}
+
+.footer-actions {
+    margin-top: 28px;
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 22px;
+    border-radius: 999px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn.call {
+    width: 100%;
+    border: 2px solid var(--btn-primary-color);
+    color: var(--primary-color);
+    background: transparent;
+}
+
+.btn.reserve {
+    width: 100%;
+    background: var(--btn-primary-color);
+    color: var(--highlight-color);
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    background: var(--btn-hover);
+}
+
+.clinic-hours table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 14px;
+}
+
+.clinic-hours th,
+.clinic-hours td {
+    padding: 12px;
+    text-align: center;
+}
+
+.clinic-hours thead {
+    border-radius: 12px;
+}
+
+.clinic-hours thead th {
+    background: var(--bg-secondary-color);
+    color: var(--head-color);
+    font-weight: 600;
+}
+
+.clinic-hours tbody tr {
+    background: #fff;
+}
+
+.clinic-hours tbody tr:not(:last-child) td,
+.clinic-hours tbody tr:not(:last-child) th {
+    border-bottom: 1px solid var(--border, #eee);
+}
+
+.clinic-hours th:first-child {
+    text-align: left;
+    font-weight: 600;
+}
+
+.clinic-note {
+    margin-top: 16px;
+    font-size: 14px;
+    color: #827979;
+    line-height: 1.6;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.footer-nav a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    text-decoration: none;
+    white-space: nowrap;
+    color: var(--primary-color);
+    font-weight: 500;
+    transition: all 0.25s ease;
+}
+
+.footer-nav a::before {
+    content: "›";
+    color: var(--btn-primary-color);
+}
+
+.footer-nav a:hover {
+    color: var(--btn-primary-color);
+    transform: translateX(6px);
+}
+
+
+.footer-bottom {
+    max-width: var(--maxw);
+    margin: 24px auto 0px;
+    border-top: 1px solid rgba(0, 0, 0, 0.241);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.social-link:hover {
+    color: var(--btn-primary-color);
+}
+
+.copyright a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 900px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-nav {
+    margin-top: 0;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+}
