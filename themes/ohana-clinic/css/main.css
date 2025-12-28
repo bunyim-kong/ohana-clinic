@@ -292,6 +292,12 @@
 }
 
 
+
+
+
+
+
+
 /* medical-section */
 .speciality-section {
   background-color: #f9f9f9;
@@ -594,8 +600,8 @@
 
   /* Hero Section */
   .hero-content {
-    margin-top: 120px; /* reduce top margin */
-    grid-template-columns: 1fr; /* single column for hero content */
+    margin-top: 120px;
+    grid-template-columns: 1fr; 
     gap: 20px;
   }
 
