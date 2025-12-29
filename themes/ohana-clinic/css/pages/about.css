@@ -79,7 +79,6 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-  background-color: pink;
 }
 
 .image-grid img:nth-child(1) {
@@ -150,6 +149,101 @@
 .infor-content a:hover {
   background-color: var(--btn-hover);
 }
+
+
+
+
+
+
+
+.about-doctor-cols {
+  width: 100%;
+  max-width: var(--maxw);
+  padding-top: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-doctor-content {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 40px;
+  
+}
+
+.team-member {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background-color: var(--nav-color);
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.team-member:hover {
+  transform: translateY(-6px);
+}
+
+.member-image {
+  flex: 0 0 200px;
+  text-align: center;
+  padding: 20px;
+}
+
+.member-image img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.team-member:hover .member-image img {
+  transform: scale(1.05);
+}
+
+.member-info {
+  flex: 1;
+  padding: 25px 30px;
+}
+
+.member-info h2 {
+  font-size: 22px;
+  margin-bottom: 5px;
+  color: #1a1a1a;
+}
+
+.member-info p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.member-info ul {
+  padding-left: 20px;
+  margin: 0;
+  color: #555;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.member-info ul li {
+  margin-bottom: 5px;
+}
+
+
+
+.nothing {
+  height: 80px;
+}
+
 
 
 

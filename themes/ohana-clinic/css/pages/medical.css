@@ -1,0 +1,98 @@
+
+
+.medical-cols {
+    padding-top: 120px;
+}
+
+.head-title h1{
+    font-size: 38px;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.medical-specialist {
+    width: 100%;
+    max-width: var(--maxw);
+}
+
+.medical-content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.medical-text {
+    transform: translateY(20px);
+}
+
+.medical-text h1 {
+    font-size: 24px;
+}
+
+.price-table {
+    width: 100%;
+    margin-top: 48px;
+    border-collapse: separate;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.price-table thead {
+    background: var(--bg-secondary-color);
+    color: var(--head-color);
+    font-size: 1.1rem;
+}
+
+.price-table th, 
+.price-table td {
+    padding: 16px 20px;
+    text-align: center;
+}
+
+.price-table tbody tr {
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.steps-table {
+    width: 100%;
+    max-width: 800px;
+    margin: 30px auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.steps-table thead {
+    background: var(--bg-secondary-color);
+    color: var(--head-color);
+    font-size: 1rem;
+}
+
+.steps-table th,
+.steps-table td {
+    padding: 14px 16px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.steps-table th {
+    width: 60px;
+}
+
+.steps-table tbody tr {
+    background-color: #fff;
+}
+
+.steps-table th:first-child {
+    width: 30px;
+    font-size: 14px;
+    text-align: center;  
+    font-weight: 600;
+    padding: 6px 2px;
+    vertical-align: middle;
+}

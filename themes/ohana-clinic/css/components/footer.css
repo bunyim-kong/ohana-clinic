@@ -14,8 +14,7 @@
 
 .infor-footer {
     padding: 12px 28px;
-    background-color: ;
-    background: var(--footer-color);
+    background-color: var(--footer-color);
     display: flex;
     align-items: center;
     justify-content: center;
