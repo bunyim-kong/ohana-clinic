@@ -1,0 +1,254 @@
+
+
+.medical-cols {
+    padding-top: 120px;
+}
+
+.head-title h1{
+    font-size: 38px;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.medical-specialist {
+    width: 100%;
+    max-width: var(--maxw);
+}
+
+.medical-content {
+    width: 100%;
+    margin-bottom: 54px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.medical-text {
+    transform: translateY(20px);
+}
+
+.medical-text ul {
+    line-height: 2.6;
+}
+
+.medical-text ul li{
+    font-size: 18px;
+}
+
+.medical-text ol {
+    line-height: 2.6;
+}
+
+.medical-text ol li{
+    font-size: 18px;
+}
+
+.medical-text h1 {
+    font-size: 32px;
+}
+
+.medical-text h2 {
+    margin-top: 48px;
+    font-size: 24px;
+}
+
+.medical-text p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.medical-image h1{
+    font-size: 32px;
+    padding-top: 28px;
+}
+
+.medical-image p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.medical-image-content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 26px;
+}
+
+.image-item {
+    margin-top: 16px;
+    text-align: center;
+}
+
+.image-item p {
+    margin: 0;
+}
+
+.image-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 16px;
+}
+
+.image-item-2 {
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--nav-color);
+    border-radius: 16px;
+}
+
+.image-item-3 {
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--nav-color);
+}
+
+.image-item-2 img{
+    height: 400px;
+    object-fit: contain;
+}
+
+/* price-table */
+.price-table {
+    width: 100%;
+    border-collapse: separate;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.price-table thead {
+    background: var(--bg-secondary-color);
+    color: var(--head-color);
+    font-size: 1.1rem;
+}
+
+.price-table th, 
+.price-table td {
+    padding: 16px 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.price-table tbody tr {
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* flow-table */
+.steps-table {
+    width: 100%;
+    max-width: var(--maxw);
+    margin: 30px auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.steps-table thead {
+    background: var(--bg-secondary-color);
+    color: var(--head-color);
+    font-size: 18px;
+}
+
+.steps-table th,
+.steps-table td {
+    padding: 20px 16px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.steps-table th {
+    width: 60px;
+}
+
+.steps-table tbody tr {
+    background-color: #fff;
+    font-size: 17px;
+}
+
+.steps-table th:first-child {
+    width: 30px;
+    font-size: 16px;
+    text-align: center;  
+    font-weight: 600;
+    padding: 6px 2px;
+    vertical-align: middle;
+}
+
+
+
+
+.table-wrapper {
+    width: 100%;
+  max-width: var(--maxw);
+  margin: 0 auto;
+}
+
+.process-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.process-table thead {
+  background: var(--bg-secondary-color);
+  color: var(--head-color);
+  font-size: 18px;
+}
+
+.process-table thead th {
+  padding: 18px 20px;
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.process-table th,
+.process-table td {
+  padding: 16px 20px;
+  vertical-align: left;
+  text-align: left;
+  font-size: 16px;
+}
+
+.process-table tbody th {
+  text-align: left;
+  font-weight: 600;
+}
+
+.process-table tbody tr {
+  background-color: #fff;
+}
+
+.extra {
+    margin-top: 40px;
+}
+
+.process-table td.image-cell {
+  width: 140px;
+  text-align: center;
+}
+
+.process-table td.image-cell img {
+  max-width: 100px;
+  height: auto;
+}
+
+.process-table td.center {
+  text-align: center;
+}
+
+.process-table th[rowspan],
+.process-table td[rowspan] {
+  vertical-align: middle;
+}

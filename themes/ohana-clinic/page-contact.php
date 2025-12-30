@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/pages/contact.css">
 
 <?php get_header();?>
@@ -24,7 +25,7 @@
 </section>
 
 
-  <section class="container min">
+<section class="container min">
   <h2>Contact form</h2>
   
   <form method="post" action="">
@@ -77,7 +78,7 @@
         <span class="badge">Mandatory</span>
       </div>
       <div class="input-section">
-        <input type="email" class="form-input">
+        <input type="tel" class="form-input">
       </div>
     </div>
 
@@ -88,13 +89,16 @@
       </div>
      <div class="input-section">
     <textarea name="user_contact_contact" class="form-input" rows="8"></textarea>
-</div>
+  </div>
     </div>
-<div class="button-container">
-            <button type="submit" class="submit-btn">Go to confirmation screen</button>
-        </div>
-    
-     
+
+  <div class="button-container">
+      <button type="submit" class="submit-btn">Go to confirmation screen</button>
+  </div>
    
   </form>
 </section>
+
+<div class="nothing"></div>
+
+<?php get_footer(); ?>

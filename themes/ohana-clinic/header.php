@@ -41,9 +41,22 @@
 
       <nav class="nav">
         <a href="<?php echo home_url('home'); ?>">Home</a>
-        <a href="<?php echo home_url('first visit'); ?>">First Visit</a>
-        <a href="">About us</a>
-        <a href="">Medical Information</a>
+        <a href="<?php echo home_url('first-visit'); ?>">First Visit</a>
+        <a href="<?php echo home_url('about-us'); ?>">About us</a>
+
+        <div class="nav-dropdown">
+          <a href="<?php echo home_url('medical'); ?>">Medical Information <i class="fas fa-chevron-down"></i></a>
+
+          <div class="dropdown-menu">
+            <a href="<?php echo home_url('preimplantation-genetic-testing'); ?>">PGT-A/PGT-SR Test</a>
+            <a href="<?php echo home_url('egg-freezing'); ?>">Egg freezing</a>
+            <a href="<?php echo home_url('in-vitro-fertilization'); ?>">In Vitro Fertilization</a>
+            <a href="<?php echo home_url('general-fertility-treatment'); ?>">General Fertility Treatment</a>
+            <a href="<?php echo home_url('fertility-testing'); ?>">Fertility testing</a>
+            <a href="">Other treatment and testing</a>
+          </div>
+        </div>
+
         <a href="<?php echo home_url('contact'); ?>">Contact</a>
         <a href="">Acess & Clinic Hours</a>
       </nav>

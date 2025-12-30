@@ -216,9 +216,9 @@
     If you are in a hurry, please call us.</p>
 
   <div class="reservation-content">
-
+    <!-- the contact -->
     <div class="reservation-contact">
-        <div class="reservation-items" style= "background">
+        <div class="reservation-items" style= "background-color: var(--nav-color);">
           <a href=""><i class="fas fa-phone"></i> 03-3987-3090</a>
         </div>
 
@@ -227,8 +227,18 @@
         </div>
     </div>
 
+    <p class="content-txt">It may take some time for us to respond to inquiries made through the inquiry form.</p>
+
+    <!-- inqury form -->
+    <div class="reservation-form">
+      <a href="<?php echo home_url('contact'); ?>">Inqury <i class="fas fa-chevron-right"></i></a>
+    </div>
+
   </div>
 </section>
+
+
+<?php get_footer(); ?>
 
 
 
@@ -239,6 +249,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 
+<!-- hero-section swiper -->
 <script>
     var swiper = new Swiper(".mySwiper", {
         loop: true,
@@ -254,12 +265,13 @@
     });
 </script>
 
+<!-- galary-slider -->
 <script>
   var slider = new Swiper(".mySlider", {
     loop: true,
     speed: 500,
     autoplay: {
-      delay: 2000,
+      delay: 3500,
       disableOnInteraction: false,
     },
     slidesPerView: 2,
