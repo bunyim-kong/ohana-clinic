@@ -53,7 +53,7 @@
             <a href="<?php echo home_url('in-vitro-fertilization'); ?>">In Vitro Fertilization</a>
             <a href="<?php echo home_url('general-fertility-treatment'); ?>">General Fertility Treatment</a>
             <a href="<?php echo home_url('fertility-testing'); ?>">Fertility testing</a>
-            <a href="">Other treatment and testing</a>
+            <a href="<?php echo home_url('other-treatment-and-testing'); ?>">Other treatment and testing</a>
           </div>
         </div>
 
