@@ -41,7 +41,7 @@
 
       <nav class="nav">
         <a href="<?php echo home_url('home'); ?>">Home</a>
-        <a href="">First Visit</a>
+        <a href="<?php echo home_url('first visit'); ?>">First Visit</a>
         <a href="">About us</a>
         <a href="">Medical Information</a>
         <a href="<?php echo home_url('contact'); ?>">Contact</a>

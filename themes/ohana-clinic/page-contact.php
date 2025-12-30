@@ -5,7 +5,7 @@
  
 <section class="contact-section">
   <div class="container">
-    <div class="header-group">
+    <div class="mlo">
       <h1 >Contact Us</h1>
     </div>
 
