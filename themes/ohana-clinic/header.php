@@ -42,7 +42,17 @@
       <nav class="nav">
         <a href="<?php echo home_url('home'); ?>">Home</a>
         <a href="<?php echo home_url('first-visit'); ?>">First Visit</a>
-        <a href="<?php echo home_url('about-us'); ?>">About us</a>
+        <div class="nav-dropdown">
+          <a href="<?php echo home_url('about-us'); ?>">About us <i class="fas fa-chevron-down"></i></a>
+
+          <div class="dropdown-menu">
+            <a href="<?php echo home_url('philosophy-and-strength'); ?>">Philosophy and Strength</a>
+            <a href="<?php echo home_url('treatment-result'); ?>">Treatment Result</a>
+            <a href="<?php echo home_url('directors-introduction'); ?>">Director's Introduction</a>
+            <a href="<?php echo home_url('doctor-introduction'); ?>">Doctor Introduction</a>
+            <a href="<?php echo home_url('introduction-of-the-hospital'); ?>">Introduction of the Hospital</a>
+          </div>
+        </div>
 
         <div class="nav-dropdown">
           <a href="<?php echo home_url('medical'); ?>">Medical Information <i class="fas fa-chevron-down"></i></a>
@@ -58,7 +68,7 @@
         </div>
 
         <a href="<?php echo home_url('contact'); ?>">Contact</a>
-        <a href="">Acess & Clinic Hours</a>
+        <a href="<?php echo home_url('access-to-clinic'); ?>">Acess & Clinic Hours</a>
       </nav>
 
       <div class="header-right">

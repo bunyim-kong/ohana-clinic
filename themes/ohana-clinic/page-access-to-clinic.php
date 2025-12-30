@@ -1,111 +1,103 @@
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/main.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/pages/access-to-clinic.css">
 
-<?php get_header();?>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 
-        <section class="biu">
-        <div class="vin">
-            <div class="mlo">
-            <h1 >Access and Clinic Hours</h1>
-            </div>
-        <div class="bo1">
-            <samp>Access and Clinic Hours</samp>
+<?php get_header();?>
 
-        </div>
-        </section>
-        <section class="tin">
-        <div class="tan">
-            <h1>Access</h1>
-        </div>
-        </section>
+<section class="page-header">
+  <h1>Access & Clinic Hours</h1>
+  <span class="subtitle">Access and Clinic Hours</span>
+</section>
 
-        <table class="clinic-table">
-        <tr>
-            <th class="label-cell">Name</th>
-            <td class="content-cell">Keiai Clinic</td>
-        </tr>
-        <tr>
-            <th class="label-cell">Address</th>
-            <td class="content-cell">
-            〒170-0013<br>
-            Fujigi Building 4F, 1-12-8 Higashi-Ikebukuro, Toshima-ku, Tokyo<br>
-            <a href="#" class="map-link">Google Maps</a>
-            </td>
-        </tr>
-        <tr>
-            <th class="label-cell">Phone number</th>
-            <td class="content-cell"><a href="tel:03-3987-3090" class="phone-link">03-3987-3090</a></td>
-        </tr>
-        <tr>
-            <th class="label-cell">Access</th>
-            <td class="content-cell">A one-minute walk from Ikebukuro Station Exit 35.</td>
-        </tr>
-        </table>
+<section class="access-section">
+  <h2>Access</h2>
 
+  <table class="clinic-table">
+    <tr>
+      <th>Name</th>
+      <td>Keiai Clinic</td>
+    </tr>
+    <tr>
+      <th>Address</th>
+      <td>
+        〒170-0013<br>
+        Fujigi Building 4F, 1-12-8 Higashi-Ikebukuro, Toshima-ku, Tokyo<br>
+        <a href="#" class="map-link">View on Google Maps</a>
+      </td>
+    </tr>
+    <tr>
+      <th>Phone</th>
+      <td><a href="tel:03-3987-3090" class="phone-link">03-3987-3090</a></td>
+    </tr>
+    <tr>
+      <th>Access</th>
+      <td>1-minute walk from Ikebukuro Station Exit 35</td>
+    </tr>
+  </table>
+</section>
 
-        <section class="directions">
+<section class="directions">
   <h2>Directions</h2>
   <div class="line"></div>
 
   <div class="direction-list">
     <div class="direction-item">
-       <img src="<?php echo get_template_directory_uri(); ?>/asset/image/68.jpg" alt="">
-      
-      <p>Take the 35th exit of Ikebukuro Station.</p>
+      <img src="<?php echo get_template_directory_uri(); ?>/asset/image/68.jpg" alt="">
+      <p>Exit Ikebukuro Station at Exit 35</p>
     </div>
-
-    <div class="direction-item"> 
+    <div class="direction-item">
       <img src="<?php echo get_template_directory_uri(); ?>/asset/image/69.jpg" alt="">
-
-      <p>Walk towards Sunshine 60th Street.</p>
+      <p>Walk toward Sunshine 60 Street</p>
     </div>
-     <div class="direction-item"> 
+    <div class="direction-item">
       <img src="<?php echo get_template_directory_uri(); ?>/asset/image/66.webp" alt="">
-      <p>Walk towards Sunshine 60th Street.</p>
+      <p>Continue straight ahead</p>
     </div>
-     <div class="direction-item"> 
+    <div class="direction-item">
       <img src="<?php echo get_template_directory_uri(); ?>/asset/image/67.webp" alt="">
-
-      <p>Walk towards Sunshine 60th Street.</p>
+      <p>Clinic is located on the 4th floor</p>
     </div>
   </div>
-    </section>
+</section>
+
 <section class="clinic-hours">
-  <h2>Clinic hours</h2>
+  <h2>Clinic Hours</h2>
   <div class="line"></div>
 
   <p class="desc">
-    The clinic is requested to make a reservation in advance as much as possible.<br>
-    Thank you for your understanding and cooperation.
+    Reservations are required whenever possible.<br>
+    Thank you for your understanding.
   </p>
 
   <div class="table-wrap">
-    <table class="table">
+    <table class="schedule-table">
       <thead>
         <tr>
-          <th></th>
-          <th>Moon</th>
-          <th>Fire</th>
-          <th>Water</th>
-          <th>Tree</th>
-          <th>Gold</th>
+          <th>Time</th>
+          <th>Mon</th>
+          <th>Tue</th>
+          <th>Wed</th>
+          <th>Thu</th>
+          <th>Fri</th>
           <th>Sat</th>
-          <th>Sundays and holidays</th>
+          <th>Sun / Holidays</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td class="time-col">08:00-12:00</td>
-          <td>Takehara<br>Tanaka (guard)*1</td>
+          <td>08:00–12:00</td>
+          <td>Takehara<br>Tanaka*</td>
           <td>Takehara</td>
           <td>Takehara<br>Muraki</td>
           <td>Takehara</td>
-          <td>Takehara<br>Muraki<br>Ohashi Bridge*2</td>
+          <td>Takehara<br>Muraki<br>Ohashi*</td>
           <td>/</td>
           <td>/</td>
         </tr>
         <tr>
-          <td class="time-col">09:00-12:00</td>
+          <td>09:00–12:00</td>
           <td>/</td>
           <td>/</td>
           <td>/</td>
@@ -115,7 +107,7 @@
           <td>Takehara</td>
         </tr>
         <tr>
-          <td class="time-col">18:00-20:00</td>
+          <td>18:00–20:00</td>
           <td>Takehara<br>Sasaki</td>
           <td>/</td>
           <td>Takehara<br>Muraki</td>
@@ -128,10 +120,11 @@
     </table>
   </div>
 
-  <div class="note red">
-    It will be a complete reservation system.<br>
-    *1 2nd and 4th Mondays<br>
-    *2 2nd and 4th Fridays<br>
-    <span class="small">* There are times when Director Takehara is absent on Monday afternoon.</span>
+  <div class="note">
+    <p>* Tanaka: 2nd & 4th Mondays</p>
+    <p>* Ohashi: 2nd & 4th Fridays</p>
+    <p class="small">Director Takehara may be absent on Monday afternoons.</p>
   </div>
 </section>
+
+<?php get_footer(); ?>
