@@ -30,9 +30,14 @@
     font-size: 24px;
 }
 
+.medical-text h2 {
+    margin-top: 48px;
+    font-size: 24px;
+}
+
 .price-table {
     width: 100%;
-    margin-top: 48px;
+    
     border-collapse: separate;
     box-shadow: 0 10px 20px rgba(0,0,0,0.08);
     border-radius: 10px;
