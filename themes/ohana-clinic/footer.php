@@ -31,7 +31,7 @@
               03-3987-3090
             </a>
 
-            <a href="" target="_blank" class="btn reserve">
+            <a href="https://airrsv.net/keiai-clinic/calendar" target="_blank" class="btn reserve">
               <ion-icon name="calendar-sharp"></ion-icon>
               Web Booking
             </a>

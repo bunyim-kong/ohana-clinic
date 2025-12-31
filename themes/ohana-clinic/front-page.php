@@ -204,7 +204,7 @@
   </div>
 
   <div class="btn-explore">
-    <a href="">Introduction to the Hospital</a>
+    <a href="<?php echo home_url('introduction-of-the-hospital'); ?>">Introduction to the Hospital</a>
   </div>
 </section>
 
@@ -223,7 +223,7 @@
         </div>
 
         <div class="reservation-items">
-          <a href=""><i class="far fa-calendar-alt"></i>Online Reservation</a>
+          <a href="https://airrsv.net/keiai-clinic/calendar"><i class="far fa-calendar-alt"></i>Online Reservation</a>
         </div>
     </div>
 
