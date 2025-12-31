@@ -72,7 +72,7 @@
       </nav>
 
       <div class="header-right">
-        <a href="https://airrsv.net/keiai-clinic/calendar" class="btn">Booking</a>
+        <a href="<?php echo home_url('clinic-calendar'); ?>" class="btn">Booking</a>
       </div>
 
     </div>

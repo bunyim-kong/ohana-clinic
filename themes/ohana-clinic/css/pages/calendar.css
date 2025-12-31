@@ -1,0 +1,79 @@
+/* Page Wrapper */
+.clinic-calendar-page {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.calendar-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.calendar-header h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #1a1a1a;
+}
+
+.calendar-header p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Calendar Container */
+.calendar-container {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+/* FullCalendar Overrides */
+#doctor-calendar {
+    max-width: 100%;
+}
+
+/* Calendar header */
+.fc-toolbar-title {
+    font-size: 20px !important;
+    font-weight: 600;
+}
+
+/* Buttons */
+.fc-button {
+    background: #0d6efd !important;
+    border: none !important;
+    border-radius: 6px !important;
+    padding: 6px 12px !important;
+}
+
+.fc-button:hover {
+    background: #084298 !important;
+}
+
+/* Time slots */
+.fc-timegrid-slot {
+    height: 45px !important;
+}
+
+/* Events (Available slots) */
+.fc-event {
+    border-radius: 6px !important;
+    font-size: 13px;
+    padding: 3px 6px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .clinic-calendar-page {
+        padding: 30px 15px;
+    }
+
+    .calendar-header h1 {
+        font-size: 24px;
+    }
+}
