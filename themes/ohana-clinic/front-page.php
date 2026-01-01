@@ -54,7 +54,7 @@
 
             <p>Close to the station, open 8:00 AM–8:00 PM (Mon, Wed, Fri)</p>
 
-            <a href="">See more <i class="fas fa-chevron-right"></i></a>
+            <a href="<?php echo home_url('philosophy-and-strength'); ?>">See more <i class="fas fa-chevron-right"></i></a>
         </div>
 
         <div class="strength-card">
@@ -64,7 +64,7 @@
 
             <p>Pregnancy rate from 2022 to 2023: 63.2% (frozen blastocyst transfer)</p>
 
-            <a href="">See more <i class="fas fa-chevron-right"></i></a>
+            <a href="<?php echo home_url('egg-freezing'); ?>">See more <i class="fas fa-chevron-right"></i></a>
         </div>
 
         <div class="strength-card">
@@ -74,7 +74,7 @@
 
             <p>There is no difference in the treatment plan or explanation given by the doctor.</p>
 
-            <a href="">See more <i class="fas fa-chevron-right"></i></a>
+            <a href="<?php echo home_url('philosophy-and-strength#same-doctor'); ?>">See more <i class="fas fa-chevron-right"></i></a>
         </div>
 
     </div>    
