@@ -17,7 +17,7 @@
             <p>We will answer your questions thoroughly during your consultation, so
             you can approach your infertility treatment in a relaxed atmosphere.</p>
 
-            <a class="btn-primary" href="">Discover More</a>
+            <a class="btn-primary" href="<?php echo home_url('philosophy-and-strength'); ?>">Discover More</a>
         </div>
 
         <div class="hero-image">
@@ -105,7 +105,7 @@
         <p>The hospital's philosophy of "infertility treatment with better friends" includes the desire to make patients, doctors, and staff communicate, and to perform fertility treatment that tends to be dark, and by making it better, we want you to do the fertility treatment that tends to be dark. In addition, we will incorporate new tests, treatments, and technologies that are expected to be effective, and all staff will do their best to support as many patients as possible so that as many patients as possible can have children.</p>
       </div>
 
-      <a href="#" class="btn">Discover More</a>
+      <a href="<?php echo home_url('directors-introduction'); ?>" class="btn">Discover More</a>
     </div>
 
   </div>
@@ -138,7 +138,7 @@
           <p>Depending on the cause of infertility, it is a treatment that aims to become pregnant with timing methods and artificial insemination.</p>
         </div>
         <div class="card-img">
-          <a href="#"><i class="fas fa-share-alt"></i></a>
+          <a href="<?php echo home_url('in-vitro-fertilization'); ?>"><i class="fas fa-share-alt"></i></a>
         </div>
       </div>
 
@@ -148,7 +148,7 @@
           <p>A fertility test is a test to examine physical condition and fertility and to find disorders of pregnancy.</p>
         </div>
         <div class="card-img">
-          <a href="#"><i class="fas fa-share-alt"></i></a>
+          <a href="<?php echo home_url('fertility-testing'); ?>"><i class="fas fa-share-alt"></i></a>
         </div>
       </div>
 
@@ -160,7 +160,7 @@
             ※Only patients in our hospital treatment</p>
         </div>
         <div class="card-img">
-          <a href="#"><i class="fas fa-share-alt"></i></a>
+          <a href="<?php echo home_url('directors-introduction'); ?>"><i class="fas fa-share-alt"></i></a>
         </div>
       </div>
 
