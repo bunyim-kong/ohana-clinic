@@ -31,7 +31,7 @@
               03-3987-3090
             </a>
 
-            <a href="https://airrsv.net/keiai-clinic/calendar" target="_blank" class="btn reserve">
+            <a href="<?php echo home_url('clinic-calendar'); ?>" target="_blank" class="btn reserve">
               <ion-icon name="calendar-sharp"></ion-icon>
               Web Booking
             </a>
@@ -39,17 +39,17 @@
       </div>
 
       <nav class="footer-nav">
-        <a href="/">Home</a>
-        <a href="/firstvisit/">First Visit</a>
-        <a href="/clinic/">About Our Hospital</a>
-        <a href="/treatment/">Medical Information</a>
-        <a href="/access/">Access & Hours</a>
-        <a href="/contact/">Contact Us</a>
-        <a href="/privacy/">Privacy Policy</a>
+        <a href="<?php echo home_url('home'); ?>">Home</a>
+        <a href="<?php echo home_url('first-visit'); ?>">First Visit</a>
+        <a href="<?php echo home_url(''); ?>">About Our Hospital</a>
+        <a href="<?php echo home_url(''); ?>">Medical Information</a>
+        <a href="<?php echo home_url('contact'); ?>">Access & Hours</a>
+        <a href="<?php echo home_url('access-to-clinic'); ?>">Contact Us</a>
+        <a href="<?php echo home_url('clinic-calendar'); ?>">Access & Clinic Hours</a>
       </nav>
     </div>
 
-    <!-- Clinic Shcedule -->
+
     <div class="clinic-hours">
       <table>
         <thead>
@@ -120,7 +120,7 @@
     
 
     <p class="copyright">
-      © 2025 <a href="">Ohana Clinic</a>
+      © 2025 Ohana Clinic
     </p>
   </div>
 
