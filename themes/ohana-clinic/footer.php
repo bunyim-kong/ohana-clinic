@@ -6,7 +6,7 @@
 
     <div class="infor-footer">
         <div class="footer-info">
-          <a href="" class="footer-logo">
+          <a href="<?php echo home_url('home'); ?>" class="footer-logo">
             <img src="<?php echo get_template_directory_uri() . '/asset/image/logo.png'; ?>">
           </a>
 
